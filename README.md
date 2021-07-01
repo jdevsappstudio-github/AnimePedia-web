@@ -1,0 +1,2 @@
+# AnimePedia-web
+AnimePedia-website
