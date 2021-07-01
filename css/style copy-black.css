@@ -591,9 +591,10 @@ app download section
 ------------- */
 
 .app-download{
-    background-image: url('../img/download-app-bg.jpg');
+    background-image: url('../img/download-app-bg-5.jpg');
     background-position: center top;
     background-attachment: fixed;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     position: relative;
     z-index: 1;
@@ -605,9 +606,9 @@ app download section
 left: 0;
 top: 0;
 width: 100%;
+background-color: #000;
 height: 100%;
 z-index: -1;
-background-color: var(--main-to-dark-color);
 opacity: .8;
 }
 .app-download-item{
