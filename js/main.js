@@ -2,7 +2,7 @@
   $(window).on("load",function(){
 
     // ----------Preloader--------
-     $(".preloader").fadeOut("slow");
+     $(".preloader").delay(1000).fadeOut("slow");
     
 });
  
