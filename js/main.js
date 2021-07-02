@@ -2,14 +2,12 @@
   $(window).on("load",function(){
 
     // ----------Preloader--------
-     $(".preloader").delay(1000).fadeOut("slow");
-    
+     $(".preloader").fadeOut("slow");
+     
 });
  
  
  $(document).ready(function(){
-
-   
 
     // -----------Navbar Shrink----------------
     $(window).on("scroll",function(){
@@ -27,6 +25,8 @@
     $('.features-carousel').owlCarousel({
         loop:true,
         margin:0,
+        autoplay:true,
+        autoplayTimeout:2000,
         responsiveClass:true,
         responsive:{
             0:{
@@ -48,6 +48,8 @@
     $('.screenshots-carousel').owlCarousel({
         loop:true,
         margin:0,
+        autoplay:true,
+        autoplayTimeout:2000,
         responsiveClass:true,
         responsive:{
             0:{
