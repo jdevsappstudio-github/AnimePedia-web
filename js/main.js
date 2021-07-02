@@ -26,6 +26,7 @@
         loop:true,
         margin:0,
         autoplay:true,
+        autoplayHoverPause:true,
         autoplayTimeout:2000,
         responsiveClass:true,
         responsive:{
@@ -50,6 +51,7 @@
         margin:0,
         autoplay:true,
         autoplayTimeout:2000,
+        autoplayHoverPause:true,
         responsiveClass:true,
         responsive:{
             0:{
