@@ -208,16 +208,11 @@ border-radius: 5px;
     background-color: var(--main-to-dark-color);
 }
 
-.preloader aa{
-    display: block;
-    height: 60px;
-    width: 60px;
-    background-color: var(--dark-to-main-color);
-    border-radius: 50%;
-    animation: zoom_01 2s ease infinite;
-
+.loading{
+   color: white;
+   font-size: 3rem;
+   align-items: center;
 }
-
 
 
 /*

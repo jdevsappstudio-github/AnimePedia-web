@@ -1,10 +1,10 @@
  
-  $(window).on("load",function(){
+//   $(window).on("load",function(){
 
-    // ----------Preloader--------
-     $(".preloader").fadeOut("slow");
+//     // ----------Preloader--------
+//      $(".preloader").fadeOut("slow");
      
-});
+// });
  
  
  $(document).ready(function(){
