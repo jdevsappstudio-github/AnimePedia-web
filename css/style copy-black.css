@@ -66,7 +66,7 @@ img{
 ul{
     list-style: none;
 }.btn-1{
-    background-color: #fff;
+    background-color: var(--main-color);
     padding: 12px 30px;
     border:none;
     border-radius: 30px;
@@ -80,11 +80,12 @@ ul{
 }
 
 .btn-1:focus{
-    background-color:  var(--shadow-black-300);
+    background-color:  var(--main-color);
+
 }
 .btn-1:hover{
     color: #000;
-    background-color:  var(--main-color);
+    background-color: #fff;
 }
 .btn-2{
     background-color: #fff;

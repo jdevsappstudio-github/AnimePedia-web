@@ -20,7 +20,7 @@
         }
     });
 
-
+    
     // -------------------  Features carousel ----------------
     $('.features-carousel').owlCarousel({
         loop:true,
@@ -83,5 +83,10 @@ $(".nav-link").on("click",function(){
 
 
  });
+
+ let play3 = function(){document.getElementById("audio3").play()}
+ let play1 = function(){document.getElementById("audio1").play()}
+ let play2 = function(){document.getElementById("audio2").play()}
+ let play4 = function(){document.getElementById("audio4").play()}
 
  
