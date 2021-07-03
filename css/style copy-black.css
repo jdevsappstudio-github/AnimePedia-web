@@ -418,7 +418,9 @@ Features section
      background-color: #000000;
 }
 .privacy{
-    padding: 30px;
+ 
+margin: 8px;
+    
 }
 .privacy h2,h3{
     margin-top: 30px;
@@ -426,6 +428,7 @@ color: var(--main-color);
 }
  .privacy p,ul,li{
     color: white;
+font-size: 16px;
 }
 .privacy hr{
     background-color: white;
