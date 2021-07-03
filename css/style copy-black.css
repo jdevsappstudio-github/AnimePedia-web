@@ -207,14 +207,60 @@ border-radius: 5px;
     justify-content: center;
     background-color: var(--main-to-dark-color);
 }
-
-.loading{
-   color: white;
-   font-size: 3rem;
-   align-items: center;
+/* -----shuriken----- */
+.shuriken-1{
+    animation:sh4 2s infinite linear;
 }
 
+.shuriken-1 svg{
+    /* width: calc(80px*0.707);
+    height: calc(80px*0.707);
+    background:var(--main-color);
+    clip-path: polygon(0 0,50% 15%,100% 0,85% 50%,100% 100%,50% 85%,0 100%,15% 50%);
+    -webkit-mask:
+      radial-gradient(circle closest-side,#0000 92%,#000) top   /100% 33.4%,
+      radial-gradient(circle closest-side,#0000 92%,#000) left  /33.4%  33.4%,
+      radial-gradient(circle 5px         ,#0000 92%,#000) center/33.3%  33.3%,
+      radial-gradient(circle closest-side,#0000 92%,#000) right /33.4%  33.4%,
+      radial-gradient(circle closest-side,#0000 92%,#000) bottom/100% 33.4%;
+    -webkit-mask-repeat:no-repeat; */
+    width: 5rem;
+    height: 5rem;
+    
+  
+  }
+  
+  @keyframes sh4 { 
+    100%{transform: rotate(1turn)}
+  }
 
+.loading{
+   color:var(--main-color);
+margin-top: 120px;
+   transform: translateX(-45px);
+  
+}
+
+.dots-7 {
+    width:12px;
+    height:12px;
+    border-radius: 50%;
+    clip-path: inset(-25px -100px);
+    box-shadow: 19px -40px,38px -40px,57px -40px;
+    transform: translateX(-38px);
+    animation: d7 1s infinite;
+  }
+  
+  @keyframes d7{ 
+    16.67% {box-shadow: 19px  0px,38px -40px,57px -40px}
+    33.33% {box-shadow: 19px  0px,38px   0px,57px -40px}
+    45%,55%{box-shadow: 19px  0px,38px   0px,57px   0px}
+    66.67% {box-shadow: 19px 40px,38px   0px,57px   0px}
+    83.33% {box-shadow: 19px 40px,38px  40px,57px   0px}
+    100%   {box-shadow: 19px 40px,38px  40px,57px  40px}
+  }
+  
+  
 /*
 -----------------
  Navbar
@@ -844,32 +890,6 @@ text-align: center;
 }
 
 
-/* -----shuriken----- */
-.shuriken-1{
-    animation:sh4 2s infinite linear;
-}
-
-.shuriken-1 svg{
-    /* width: calc(80px*0.707);
-    height: calc(80px*0.707);
-    background:var(--main-color);
-    clip-path: polygon(0 0,50% 15%,100% 0,85% 50%,100% 100%,50% 85%,0 100%,15% 50%);
-    -webkit-mask:
-      radial-gradient(circle closest-side,#0000 92%,#000) top   /100% 33.4%,
-      radial-gradient(circle closest-side,#0000 92%,#000) left  /33.4%  33.4%,
-      radial-gradient(circle 5px         ,#0000 92%,#000) center/33.3%  33.3%,
-      radial-gradient(circle closest-side,#0000 92%,#000) right /33.4%  33.4%,
-      radial-gradient(circle closest-side,#0000 92%,#000) bottom/100% 33.4%;
-    -webkit-mask-repeat:no-repeat; */
-    width: 10rem;
-    height: 10rem;
-    
-  
-  }
-  
-  @keyframes sh4 { 
-    100%{transform: rotate(1turn)}
-  }
 
   
 
