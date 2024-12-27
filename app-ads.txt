@@ -153,3 +153,6 @@ video.unrulymedia.com, 1058378980, RESELLER
 video.unrulymedia.com, 2743945877, RESELLER
 video.unrulymedia.com, 498216989, RESELLER
 yeahmobi.com, 5135195, RESELLER
+thunder-monetize.com, 8221217003, RESELLER
+tradplusad.com, b3fca24bd11c1242, RESELLER
+pubnative.net, 1009988, RESELLER, d641df8625486a7b
