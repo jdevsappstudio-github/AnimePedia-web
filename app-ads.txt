@@ -154,3 +154,4 @@ loopme.com, 11463, RESELLER, 6c8d5f95897a5a3b
 loopme.com, 20775, RESELLER, 6c8d5f95897a5a3b
 loopme.com, 2896, RESELLER, 6c8d5f95897a5a3b
 loopme.com, 9621, RESELLER, 6c8d5f95897a5a3b
+vungle.com, 6aae815a5846cac3aaf3d018, DIRECT, c107d686becd2d77
