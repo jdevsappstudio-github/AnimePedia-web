@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AnimePedia — Delete Account &amp; Data</title>
+  <meta name="description" content="How to delete your AnimePedia account and data." />
+  <style>
+    :root { color-scheme: dark; }
+    body {
+      margin: 0; padding: 2rem 1rem 4rem; background: #0C0C14; color: #C9C9D4;
+      font-family: -apple-system, "Segoe UI", Roboto, "Hanken Grotesk", system-ui, sans-serif;
+      line-height: 1.65;
+    }
+    main { max-width: 720px; margin: 0 auto; }
+    h1 { font-size: 1.9rem; margin: 0 0 .25rem; color: #FFFFFF; }
+    h2 { font-size: 1.2rem; margin: 2rem 0 .5rem; color: #FFFFFF; }
+    .meta { color: #82828F; font-size: .9rem; margin-bottom: 2rem; }
+    a { color: #7E78FF; }
+    a:hover { color: #34E0C8; }
+    ul, ol { padding-left: 1.25rem; }
+    li { margin: .35rem 0; }
+    .accent { color: #7E78FF; }
+    .nav { margin-bottom: 2rem; display: flex; gap: 1.25rem; flex-wrap: wrap; }
+    .nav a { font-size: .9rem; }
+    footer { margin-top: 3rem; color: #82828F; font-size: .85rem; border-top: 1px solid #25252F; padding-top: 1rem; }
+    code { background: #16161F; padding: .1rem .35rem; border-radius: 4px; }
+    .card {
+      background: #16161F; border: 1px solid #25252F; border-radius: 12px;
+      padding: 1.25rem 1.5rem; margin: 1rem 0;
+    }
+  </style>
+</head>
+<body>
+<main>
+  <p class="nav"><a href="index.html">← AnimePedia</a> <a href="privacy-policy.html">Privacy Policy</a> <a href="terms-of-service.html">Terms of Service</a></p>
+
+  <h1>Delete Your AnimePedia <span class="accent">Account &amp; Data</span></h1>
+  <p class="meta">Last updated: 4 October 2026</p>
+
+  <p>
+    AnimePedia lets you permanently delete your account and the data associated with it at any time.
+    This applies whether you signed in with Google or are using the app as a guest.
+  </p>
+
+  <h2>Option 1 — Delete in the app (recommended)</h2>
+  <div class="card">
+    <ol>
+      <li>Open AnimePedia and sign in with Google if you haven't already.</li>
+      <li>Go to <strong>Profile</strong>.</li>
+      <li>Tap <strong>Delete Account</strong>.</li>
+      <li>Confirm the deletion when prompted.</li>
+    </ol>
+  </div>
+  <p>
+    This immediately and permanently deletes your Firebase Authentication account and your
+    bookmarked-quotes backup from our Firestore database. It cannot be undone.
+  </p>
+
+  <h2>Option 2 — Request deletion by email</h2>
+  <p>
+    If you no longer have access to the app or the device you used it on, email
+    <a href="mailto:jdevsappstudio@gmail.com">jdevsappstudio@gmail.com</a> from the address associated
+    with your Google account (or tell us the email you signed in with) and ask us to delete your
+    account. We'll confirm once it's done, typically within a few days.
+  </p>
+
+  <h2>What gets deleted</h2>
+  <ul>
+    <li><strong>Your account</strong> — your Firebase Authentication identity (Google sign-in link,
+      name, email, profile photo on file) is permanently removed.</li>
+    <li><strong>Your cloud data</strong> — your bookmarked quotes backed up to Firestore are
+      permanently removed.</li>
+    <li><strong>Your local data</strong> — bookmarks, preferences, and theme choice stored on your
+      device are removed when you uninstall the app, or immediately if you delete your account while
+      signed in.</li>
+  </ul>
+  <p>
+    Anonymous, aggregated analytics/crash data already sent before deletion (via Firebase Analytics
+    and Crashlytics) is not personally identifiable and is retained per Google's standard Firebase
+    data retention policy — see our <a href="privacy-policy.html">Privacy Policy</a> for details.
+  </p>
+
+  <h2>Questions</h2>
+  <p>
+    Email <a href="mailto:jdevsappstudio@gmail.com">jdevsappstudio@gmail.com</a> with anything else
+    about your data.
+  </p>
+
+  <footer>
+    AnimePedia · Published by JDevsAppStudio · This page applies to the AnimePedia Android app
+    (package <code>com.jdevsappstudio.animepedia</code>).
+  </footer>
+</main>
+</body>
+</html>
